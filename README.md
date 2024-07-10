@@ -5,14 +5,22 @@ This project demonstrates a simple object counting and gate control system using
 Components Used
 
 ESP32 Development Board
+
 IR Obstacle Avoidance Sensor
+
 Servo Motor
+
 LED
+
 Resistor (220 Ohm)
+
 Connecting Wires
+
 Breadboard
 
+
 Code Explanation
+
 Library Inclusion: The ESP32Servo library is included to control the servo motor.
 
 Pin Definitions: The GPIO pins for the sensor, LED, and servo motor are defined.
