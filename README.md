@@ -2,30 +2,30 @@
 
 This project demonstrates a simple object counting and gate control system using an ESP32 microcontroller. The system utilizes an IR obstacle avoidance sensor to detect objects, a servo motor to control the gate, and an LED to indicate the presence of an obstacle.
 
-Components Used
+## Components Used
 
-ESP32 Development Board
+* ESP32 Development Board
 
-IR Obstacle Avoidance Sensor
+* IR Obstacle Avoidance Sensor
 
-Servo Motor
+* Servo Motor
 
-LED
+* LED
 
-Resistor (220 Ohm)
+* Resistor (220 Ohm)
 
-Connecting Wires
+* Connecting Wires
 
-Breadboard
+* Breadboard
 
 
-Code Explanation
+## Code Explanation
 
 Library Inclusion: The ESP32Servo library is included to control the servo motor.
 
 Pin Definitions: The GPIO pins for the sensor, LED, and servo motor are defined.
 
-Global Variables:
+### Global Variables:
 
 objectCount to keep track of the number of objects detected.
 objectDetected to flag if an object is currently detected.
